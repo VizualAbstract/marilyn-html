@@ -11,3 +11,16 @@ body {
 #main {
 	background-color: transparent;
 }
+
+
+.site-title {
+	font-family: $font-family-serif;
+	width: 85%;
+	display: block;
+	margin: 10% auto;
+	max-width: 300px;
+	padding-top: 10%;
+	font-size: 41px;
+	line-height: 1.1;
+	font-weight: 700;
+}

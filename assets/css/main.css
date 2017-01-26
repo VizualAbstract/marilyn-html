@@ -304,7 +304,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -321,13 +321,13 @@ textarea {
 }
 
 a {
-  color: #337ab7;
+  color: #777777;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: #515151;
+  text-decoration: none;
 }
 
 figure {
@@ -1478,6 +1478,18 @@ body {
 
 #main {
   background-color: transparent;
+}
+
+.site-title {
+  font-family: "ambroise-std", Georgia, "Times New Roman", Times, serif;
+  width: 85%;
+  display: block;
+  margin: 10% auto;
+  max-width: 300px;
+  padding-top: 10%;
+  font-size: 41px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
